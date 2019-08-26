@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="main clearfix">
+        <img class="logo" src="img/logo.png" srcset="img/logo.png 300w, img/logo@x2.png 700w, img/logo@x3.png 1000w">
+        <form id="form-main" class=" form clearfix" method="POST" name="form" onsubmit="valid(this)">
+            <h1 class="form__title">Log In</h1>
+            <div class="form__group clearfix">
+                <input id="form__email" type="email" name="email" class="form__input" placeholder="E-Mail">
+                <input value="" type="password" name="password" class="form__input form__input-password" placeholder="Password">
+                <div id="form__error">E-Mail or password is incorrect</div>
+            </div>
+            <button id="form__button" type="button">Login</button>
+        </form>
+        <form id="form-second" class="hidden form new-form clearfix" method="POST" name="form" onsubmit="">
+            <img class = "new-form__photo" src="img/photo.jpg" alt="photo">
+            <h1 class="new-form__h1 ">Helena Joseph</h1>
+            <button onclick="document.location='index.html'" id="form__button" type="button">Logout</button>   
+        </form>
+          
+
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>

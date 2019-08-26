@@ -1,0 +1,72 @@
+@media screen and (max-width: 600px) {
+    .logo {
+        padding-top: 43px;
+        width: 182px;
+        height: 40px;
+        object-fit: contain;
+    }
+
+    .form {
+        width: 288px;
+        height: 344px  
+    }
+
+    .form__title {
+        width: 100%;
+        height: 24px;
+        opacity: 0.8;
+        font-family: Gotham;
+        font-size: 20px;
+        justify-content: center;
+        padding-top: 32px;
+        
+    }
+
+    
+
+    .form__input{
+        width: 222px;
+        height: 48px;
+        margin-left: 24px;
+        margin-right: 24px;
+        border: solid 1px rgba(151, 151, 151, 0.25);
+        
+    
+    }
+
+    .form__input-password{
+        margin-top: 20px;
+    }
+
+    #form__button{
+        margin-top: 24px;
+    }
+
+    #form__error {
+        width: 222px;
+        height: 32px;
+        font-size: 12px;
+
+    }
+
+    .new-form{
+        width: 288px;
+        height: 299px
+    }
+
+    .new-form__photo {
+        height: 86px;
+        width: 86px;
+        justify-self: center;
+        padding-top: 48px;
+    }
+
+    .new-form__h1{
+        width: 136px;
+        height: 21px;
+        opacity: 0.8;
+        font-size: 18px;
+        letter-spacing: 0.15px;
+        
+    }
+  }
