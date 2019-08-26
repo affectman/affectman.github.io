@@ -35,7 +35,8 @@ async function posts(email, password){
       'Content-Type': 'application/json;charset=utf-8'
     },
     body: JSON.stringify(user)
-    });  
+    });
+  return Boolean(response) 
 }
 
 btn.addEventListener('click',async function valid(){
