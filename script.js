@@ -36,7 +36,7 @@ async function posts(email, password){
     },
     body: JSON.stringify(user)
     });
-  return Boolean(response) 
+  return Boolean(response.ok) 
 }
 
 btn.addEventListener('click',async function valid(){
